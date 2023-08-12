@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <>
-      <h1>To Do</h1>
+      <h1>To Do Lists</h1>
       <div className="inpWrp">
         <label>Title</label>
         <input type="text" value={inputVal} onChange={(e) => setInputVal(e.target.value)} />
